@@ -143,22 +143,6 @@ export default function LoginPage() {
                 )}
               </Button>
             </form>
-
-            <div className="text-center space-y-4">
-              <div className="text-sm text-gray-600">
-                Tài khoản demo:
-              </div>
-              <div className="grid grid-cols-1 gap-2 text-xs bg-gray-50 p-4 rounded-lg">
-                <div className="flex justify-between">
-                  <span className="font-medium">Admin:</span>
-                  <span>admin@example.com / admin123</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="font-medium">Nhân viên:</span>
-                  <span>employee@example.com / employee123</span>
-                </div>
-              </div>
-            </div>
           </CardContent>
         </Card>
       </div>
